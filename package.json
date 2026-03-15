@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/ts-deep-merge-ts.git"
+    "url": "git+https://github.com/philiprehberger/ts-deep-merge.git"
   },
-  "homepage": "https://github.com/philiprehberger/ts-deep-merge-ts#readme",
+  "homepage": "https://github.com/philiprehberger/ts-deep-merge#readme",
   "bugs": {
-    "url": "https://github.com/philiprehberger/ts-deep-merge-ts/issues"
+    "url": "https://github.com/philiprehberger/ts-deep-merge/issues"
   },
   "author": "Philip Rehberger",
   "engines": {
