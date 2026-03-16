@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/deep-merge-ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Type-safe deep merging of objects",
   "type": "module",
   "main": "./dist/index.cjs",
