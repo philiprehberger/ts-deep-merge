@@ -1,6 +1,6 @@
 # @philiprehberger/ts-deep-merge
 
-[![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-deep-merge.svg)](https://www.npmjs.com/package/@philiprehberger/ts-deep-merge)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-deep-merge)](LICENSE)
 
@@ -47,6 +47,15 @@ deepMerge({ tags: ['a', 'b'] }, { tags: ['b', 'c'] }, { arrayStrategy: 'union' }
 | `deepMerge(target, source, options?)` | Deep merge two objects with type inference |
 | `deepMergeAll(objects[], options?)` | Merge N objects left-to-right |
 | `isPlainObject(value)` | Check if a value is a plain object |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 

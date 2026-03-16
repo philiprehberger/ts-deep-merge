@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/deep-merge-ts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Type-safe deep merging of objects",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -18,18 +18,28 @@
       }
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "node --test"
   },
   "devDependencies": {
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
-  "keywords": ["deep-merge", "merge", "object", "config", "type-safe", "recursive"],
+  "keywords": [
+    "deep-merge",
+    "merge",
+    "object",
+    "config",
+    "type-safe",
+    "recursive"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
