@@ -1,21 +1,21 @@
-# @philiprehberger/ts-deep-merge
+# @philiprehberger/deep-merge-ts
 
 [![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml)
-[![npm version](https://img.shields.io/npm/v/@philiprehberger/ts-deep-merge.svg)](https://www.npmjs.com/package/@philiprehberger/ts-deep-merge)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/deep-merge-ts.svg)](https://www.npmjs.com/package/@philiprehberger/deep-merge-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-deep-merge)](LICENSE)
 
-Type-safe deep merging of objects.
+Type-safe deep merging of objects
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-deep-merge
+npm install @philiprehberger/deep-merge-ts
 ```
 
 ## Usage
 
 ```ts
-import { deepMerge, deepMergeAll } from '@philiprehberger/ts-deep-merge';
+import { deepMerge, deepMergeAll } from '@philiprehberger/deep-merge-ts';
 
 const config = deepMerge(
   { server: { port: 3000, host: 'localhost' }, debug: false },
