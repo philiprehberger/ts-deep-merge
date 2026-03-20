@@ -1,6 +1,6 @@
 # @philiprehberger/deep-merge-ts
 
-[![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/deep-merge-ts.svg)](https://www.npmjs.com/package/@philiprehberger/deep-merge-ts)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-deep-merge)](LICENSE)
 
