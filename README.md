@@ -1,9 +1,8 @@
 # @philiprehberger/deep-merge-ts
 
-[![CI](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-deep-merge/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/deep-merge-ts/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/deep-merge-ts/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/deep-merge-ts.svg)](https://www.npmjs.com/package/@philiprehberger/deep-merge-ts)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-deep-merge)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/deep-merge-ts)](https://github.com/philiprehberger/deep-merge-ts/commits/main)
 
 Type-safe deep merging of objects
 
@@ -49,7 +48,6 @@ deepMerge({ tags: ['a', 'b'] }, { tags: ['b', 'c'] }, { arrayStrategy: 'union' }
 | `deepMergeAll(objects[], options?)` | Merge N objects left-to-right |
 | `isPlainObject(value)` | Check if a value is a plain object |
 
-
 ## Development
 
 ```bash
@@ -58,6 +56,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/deep-merge-ts)
+
+🐛 [Report issues](https://github.com/philiprehberger/deep-merge-ts/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/deep-merge-ts/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
